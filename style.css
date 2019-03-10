@@ -62,15 +62,20 @@ body {
 .maint {
     width: 50px;
     height: 10px;
+
 }
 .maint p {
     position: relative;
     left: 450px;
-    top: 100px;
+    top: 150px;
     font-family: 'Reem Kufi', sans-serif;
-    font-size: 80px;
+    font-size: 35px;
     text-shadow: rgba(71, 61, 139, 0.856) 0 0 10px;
     color: rgba(71, 61, 139, 0.199);
+	background-color: #FEFAE3;
+        padding: 17px;
+        border: 1px solid #F0E1A1;
+		width: 310px;
 }
 
 .navbar ul li {
