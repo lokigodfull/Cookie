@@ -1,6 +1,6 @@
 function slyLink() {
-var istS = 'Источник информации:';
-var copyR = '© Автор';
+var istS = 'https://lokigodfull.github.io/cookie/index.html:';
+var copyR = '© aka filipp';
 var body_element = document.getElementsByTagName('body')[0];
 var choose;
 choose = window.getSelection();
