@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>cookie - free software</title>
+        <meta name="description" content="Free software for CS:GO">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/ico">
+        <link rel="stylesheet" href="./fontawesome/css/all.css">
+        <script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+    </head>
+    <body>
+        <!-- MUSIC -->
+            <audio autoplay id="myaudio">
+                    <source src="css/music.mp3">
+                  </audio>
+                  
+                  <script>
+                    var audio = document.getElementById("myaudio");
+                    audio.volume = 0.01;
+                  </script>
+                  <!-- LOGO -->
+            <div class="logotype">
+                <a href="index.html">
+                <img title="cookie - free software" src="img/Cookie.png">
+            </a>
+            </div>
+            <div class="maint">
+                <p>Information</p>
+            </div>
+            <!-- NAVBAR -->
+       <div class="navbar">
+            <ul>
+            <li>
+                <a href="index.html">
+                    <div class="icon">
+                            <i class="fas fa-home"></i>
+                    </div>
+                    <div class="name" data-text="Home">Home</div>
+                </a>
+            </li>
+            <li>
+                    <a href="info.html">
+                        <div class="icon">
+                                <i class="fas fa-info"></i>
+                        </div>
+                        <div class="name" data-text="Information">Information</div>
+                    </a>
+                </li>
+                <li>
+                        <a href="updates.html">
+                            <div class="icon">
+                                    <i class="fas fa-angle-double-up"></i>
+                            </div>
+                            <div class="name" data-text="Updates Log">Updates Log</div>
+                        </a>
+                    </li>
+                    <li>
+                            <a href="#" onclick="conf()">
+                                <div class="icon">
+                                        <i class="fas fa-cogs"></i>
+                                </div>
+                                <div class="name" data-text="Configurations">Configurations</div>
+                                <script type="text/javascript">
+
+                                    function conf()
+                                    {
+                                            swal({
+                                            title: "Актуальные настройки для чита",
+                                            text: "https://qiwi.me/oftex_free",
+                                            buttons: false,
+                                            /* timer: 5000, */
+                                            link: "https://vk.com/ozelotick",
+                                            closeOnEsc: false,
+                                        });
+                                    }
+                             </script>
+                            </a>
+                        </li>
+                <li>
+                        <li>
+                                <a href="#" onclick="popup()">
+                                    <div class="icon">
+                                            <i class="fas fa-arrow-alt-to-bottom"></i>
+                                    </div>
+                                    <div class="name" data-text="Download build">Download build</div>
+                                    <script type="text/javascript">
+                                        function popup()
+                                        {
+                                            swal({
+                                                title: "Загрузка началась!",
+                                                text: "Вы успешно начали загрузку билда!",
+                                                icon: "success", 
+                                                buttons: false,
+                                                timer: 3000,
+                                            });
+                                        }
+                                        </script>
+                                </a>
+                            </li>
+                            <li>
+                                    <a href="#" onclick="sup()">
+                                        <div class="icon">
+                                                <i class="fal fa-info-square"></i>
+                                        </div>
+                                        <div class="name" data-text="Support">Support</div>
+                                        <script type="text/javascript">
+
+                                            function sup()
+                                            {
+                                                swal({
+                                                    title: "Связь с техподдержкой",
+                                                    text: "https://vk.me/ozelotick",
+                                                    buttons: false,
+                                                    timer: 5000,
+                                                    link: "https://vk.com/ozelotick",
+                                                    closeOnEsc: false,
+                                                });
+                                            }
+                                     </script>
+                                    </a>
+                                </li>
+                                <li>
+                                        <a href="#" onclick="don()">
+                                            <div class="icon">
+                                                    <i class="fas fa-donate"></i>
+                                            </div>
+                                            <div class="name" data-text="Donate">Donate</div>
+                                            <script type="text/javascript">
+
+                                                function don()
+                                                {
+                                                    swal({
+                                                        title: "Поддержите проект",
+                                                        text: "https://qiwi.me/oftex_free",
+                                                        buttons: false,
+                                                        closeOnEsc: false,
+                                                    });
+                                                }
+                                         </script>
+                                        </a>
+                                    </li>
+                                    <li>
+                                            <a href="#" onclick="don()">
+                                                <div class="icon">
+                                                        <i class="fas fa-code"></i>
+                                                </div>
+                                                <div class="name" data-text="Donate">Order html</div>
+                                                <script type="text/javascript">
+                                                    function don()
+                                                    {
+                                                        swal({
+                                                            title: "Закажите свою визитку",
+                                                            text: "https://vk.com/ozelotick",
+                                                            buttons: false,
+                                                            closeOnEsc: false,
+                                                        });
+                                                    }
+                                             </script>
+                                            </a>
+                                        </li>
+                </ul>
+            </div>
+
+<div class="container">
+    <div class="box">
+        <div class="icon"><i class="fas fa-sync-alt"></i><a class="pen">Builds</a></div>
+        <div class="content">
+            <div class="titleright ribbon-full">
+                <h3 class="format_text">Update builds</h3>
+            </div>
+            <h3>Уникальные билды</h3>
+            <h3>для каждого пользователя</h3>
+        </div>
+    </div>
+    <div class="box">
+            <div class="icon"><i class="fas fa-shield-check"></i><a class="pen">Undetect</a></div>
+            <div class="content">
+                <div class="titleright ribbon-full">
+                    <h3 class="format_text">Обновление билдов</h3>
+                </div>
+
+                <h3>Обновления происходят часто</h3>
+                <div class="qiwi">
+                    <a href="https://qiwi.me/oftex_free" target="_blank">
+                    <button class="button">Donate</button>
+                </a>
+                </div>
+            </div>
+    </div>
+    <div class="box">
+            <div class="icon"><i class="fas fa-chart-line"></i><a class="pen">Supported</a></div>
+            <div class="content">
+                <div class="titleright ribbon-full">
+                    <h3 class="format_text">Мы поддерживаем</h3>
+                </div>
+                <div class="opis">
+                <h3><i class="fas fa-check"></i>   VACNet</h3>
+                <h3><i class="fas fa-check"></i>   Matchmaking Anti-Cheat</h3>
+                <h3><i class="fas fa-check"></i>   SourceMod Anti-Cheat (SMAC)</h3>
+                </div>
+    </div>
+
+    </body>
+</html>
