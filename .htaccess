@@ -1,0 +1,7 @@
+<Limit GET POST>
+Order Allow,Deny
+Allow from all
+Deny from 220.161.150.70
+Deny from 220.161.150.114
+Deny from 62.33.118.218
+</Limit>

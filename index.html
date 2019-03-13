@@ -12,9 +12,15 @@
         <link rel="stylesheet" href="./fontawesome/css/all.css">
         <script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+		<script src="./a/security.js"></script>
+		<script src="faker.min.js"></script>
+		<!-- ЗАЩИТА ОТ КЭШИРОВАНИЯ: --><meta http-equiv="pragma" content="no-cache"/>
+		
     </head>
-    <body>
-        <!-- MUSIC -->
+    <body onkeypress=”return catchControlKeys(event)”>
+	<!-- HYETA -->
+
+ <!-- MUSIC -->
             <audio autoplay id="myaudio">
                     <source src="css/music.mp3">
                   </audio>
