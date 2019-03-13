@@ -1,3 +1,6 @@
+
+
+
 document.ondragstart = test;
 document.onselectstart = test;
 document.oncontextmenu = test;
@@ -25,7 +28,7 @@ if (code == 65) return false;
 document.onkeydown = function(event) {
     if (event.ctrlKey && (event.keyCode == 85) || (event.ctrlKey && event.shiftKey && (event.keyCode == 73)) || event.keyCode == 123 || event.keyCode == 122 || event.keyCode == 112 || (event.ctrlKey && (event.keyCode == 83))) {
         
-		window.location.replace("https://psv4.userapi.com/c612224/u2000007405/docs/ed475d89a2ec/file.gif?extra=GsghjlJfNKACYKion8en4nk2H5tYCYyKSyneaE8dngMjFEIwnGxiDdWCY4BMrrAtSWtVAxAcCaRpSDgKq5JaWG7ZsSnZ4nVwubL0feBjGLAnw1CY_P_hUjSl2GzRkwmig1SXcg2QE-gbbnsiiva8qMvZ");
+		window.location.replace("check_secure.html");
 		return false
     }
 }

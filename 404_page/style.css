@@ -1,0 +1,10 @@
+body {
+	background: #fff;
+	overflow: hidden;
+}
+
+.animu {
+	position: relative;
+    left: 400px;
+    top: 65px;
+}

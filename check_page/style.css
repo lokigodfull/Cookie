@@ -1,0 +1,12 @@
+
+body {
+	background: #212227;
+	overflow: hidden;
+}
+
+
+.load {
+	position: relative;
+    left: 600px;
+    top: 250px;
+}
